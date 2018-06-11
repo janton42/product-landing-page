@@ -1,3 +1,30 @@
-h1 {
-	color: red;
+/* User Story #13: The navbar should always be at the top of the viewport.*/
+/* User Story #14: My product landing page should have at least one media query.*/
+/* User Story #15: My product landing page should utilize CSS flexbox at least once.*/
+
+#header {
+	width: 100%;
+	height: auto;
+	background-color: green;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+#about {
+	height: 500px;
+	background-color: red;
+	width: 100%
+}
+
+#order {
+	height: 500px;
+	background: blue;
+	width: 100%
+}
+
+#pricing {
+	height: 500px;
+	background: orange;
+	width: 100%
 }
